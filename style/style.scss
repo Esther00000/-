@@ -601,7 +601,7 @@ form{
 // contact section end
 
 // ipad
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     nav {
         padding: 0 40px;
         .show-menu{
@@ -666,7 +666,7 @@ form{
 }
 
 // Desktop
-@media (max-width: 990px) {
+@media (min-width: 990px) {
     nav {
         .menu-list{
             display: inline-block;
@@ -738,7 +738,7 @@ form{
 }
 
 // large desktop
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .detail-container{
         gap: 4rem;
         .image-box{

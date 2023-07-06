@@ -556,7 +556,7 @@ form .btn:active {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   nav {
     padding: 0 40px;
   }
@@ -618,7 +618,7 @@ form .btn:active {
     height: 260px;
   }
 }
-@media (max-width: 990px) {
+@media (min-width: 990px) {
   nav .menu-list {
     display: inline-block;
     position: initial;
@@ -683,7 +683,7 @@ form .btn:active {
     transform: scale(2);
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .detail-container {
     gap: 4rem;
   }
